@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F14B673D-58FB-4EB1-8FAA-2564654F150B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BullsEye</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BC1FF3F84FB3027B1245AD4F74A1123B0A29A09E</key>
+		<string>github.com:ebinnion/4443-Swift-Programming-Binnion.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Program01/BullsEye/BullsEye.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BC1FF3F84FB3027B1245AD4F74A1123B0A29A09E</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:ebinnion/4443-Swift-Programming-Binnion.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BC1FF3F84FB3027B1245AD4F74A1123B0A29A09E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BC1FF3F84FB3027B1245AD4F74A1123B0A29A09E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>swift</string>
+		</dict>
+	</array>
+</dict>
+</plist>
