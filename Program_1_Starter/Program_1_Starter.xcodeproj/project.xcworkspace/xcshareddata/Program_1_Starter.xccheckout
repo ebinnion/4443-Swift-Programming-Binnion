@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>51C0CB7D-EA0E-4B7A-AADF-13166DA6F7E1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Program_1_Starter</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BC1FF3F84FB3027B1245AD4F74A1123B0A29A09E</key>
+		<string>github.com:ebinnion/4443-Swift-Programming-Binnion.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Program-1-Starter/Program_1_Starter.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BC1FF3F84FB3027B1245AD4F74A1123B0A29A09E</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:ebinnion/4443-Swift-Programming-Binnion.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BC1FF3F84FB3027B1245AD4F74A1123B0A29A09E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BC1FF3F84FB3027B1245AD4F74A1123B0A29A09E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>swift</string>
+		</dict>
+	</array>
+</dict>
+</plist>
