@@ -41,22 +41,8 @@ class ViewController: UIViewController {
     
     var totalCorrect = 0;
     
-    var colorNames : [String] = ["Red","Green","Blue","Orange","Black","White","Brown","Purple","Gray","Yellow"]
-    
-    //Color dictionary type not used in the program but kept as an example for future
-    var colorRGB : [Dictionary<String,UInt>] = [
-        ["Red":0xFF0000],
-        ["Green":0x00FF00],
-        ["Blue":0x0000FF],
-        ["Orange":0xFF7F00],
-        ["Black":0x000000],
-        ["White":0xFFFFFF],
-        ["Pink":0xFF6EB4],
-        ["Purple":0x8968CD],
-        ["Gray":0xBEBEBE],
-        ["Yellow":0xFFFF00],
-        ["Gray2":0xC0C0C0]
-    ]
+    var colorNames:[String] = []
+    var hexColor:[UIColor] = []
 
     var myColors:Colors
     
@@ -88,18 +74,16 @@ class ViewController: UIViewController {
                     //If we are successful, then call the method `parseJson` to load the "color class: Colors"
                     self.parseJson(json)
                     
+                    for var index:Int = 0; index < 10; index++ {
+                        var randColor = self.myColors.fetchRandomColor()
+                        var hex = hexStringToUIColor( randColor.hexValue )
+                        
+                        self.colorNames.append( randColor.colorName )
+                        self.hexColor.append( hex )
+                    }
+                    
                     //Start the game
                     self.matchColorLogic()
-                    
-                    
-                    //Example usage of the Colors class
-                    var randColor = self.myColors.fetchRandomColor()
-                    
-                    println("\(randColor.hexValue) : \(randColor.colorName) ")
-                    
-                    var uicolor = self.myColors.hexStringToUIColor(randColor.hexValue)
-                    
-                    println(uicolor)
                 }
         }
     }
