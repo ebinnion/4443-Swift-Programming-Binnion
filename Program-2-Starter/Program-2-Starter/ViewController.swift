@@ -33,6 +33,18 @@ class ViewController: UIViewController , ColorTableViewControllerDelegate{
     @IBOutlet weak var greenSlider: UISlider!
     @IBOutlet weak var blueSlider: UISlider!
     
+    @IBOutlet weak var rgb1: UILabel!
+    @IBOutlet weak var rgb2: UILabel!
+    @IBOutlet weak var rgb3: UILabel!
+    
+    @IBOutlet weak var hsl1: UILabel!
+    @IBOutlet weak var hsl2: UILabel!
+    @IBOutlet weak var hsl3: UILabel!
+    
+    @IBOutlet weak var hsv1: UILabel!
+    @IBOutlet weak var hsv2: UILabel!
+    @IBOutlet weak var hsv3: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         request(.GET, "http://cs.mwsu.edu/~griffin/swift/colors2.json")
@@ -107,12 +119,19 @@ class ViewController: UIViewController , ColorTableViewControllerDelegate{
         let g = Float(255*rgb.G)
         let b = Float(255*rgb.B)
         
-        println("red: \(r)")
-        redSlider.setValue(r, animated: true)
-        greenSlider.setValue(g, animated: true)
-        blueSlider.setValue(b, animated: true)
+        rgb1.text = "\(Int(r))"
+        rgb2.text = "\(Int(g))"
+        rgb3.text = "\(Int(b))"
         
-        println(labelColor)
+        let hsl = myColors.fetchHSL(color)
+        hsl1.text = "\(hsl.H)"
+        hsl2.text = "\(Int(hsl.L))%"
+        hsl3.text = "\(Int(hsl.S))%"
+        
+        let hsv = myColors.fetchHSV(color)
+        hsv1.text = "\(hsv.H)"
+        hsv2.text = "\(Int(hsv.S))%"
+        hsv3.text = "\(Int(hsv.V))%"
     }
     
     /********************************************************************************************
