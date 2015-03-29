@@ -96,6 +96,7 @@
 		857CC4E01AC09DFC00AF61ED /* Palette-icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 857CC4921AC09DFC00AF61ED /* Palette-icon-120.png */; };
 		857CC4E11AC09DFC00AF61ED /* Palette-icon-180.png in Resources */ = {isa = PBXBuildFile; fileRef = 857CC4931AC09DFC00AF61ED /* Palette-icon-180.png */; };
 		857CC4E21AC09DFC00AF61ED /* color_wheel-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 857CC4941AC09DFC00AF61ED /* color_wheel-32.png */; };
+		A94C46421AC7C322002CF0BA /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94C46411AC7C322002CF0BA /* CustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -202,6 +203,7 @@
 		857CC4921AC09DFC00AF61ED /* Palette-icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Palette-icon-120.png"; sourceTree = "<group>"; };
 		857CC4931AC09DFC00AF61ED /* Palette-icon-180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Palette-icon-180.png"; sourceTree = "<group>"; };
 		857CC4941AC09DFC00AF61ED /* color_wheel-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "color_wheel-32.png"; sourceTree = "<group>"; };
+		A94C46411AC7C322002CF0BA /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -379,6 +381,7 @@
 			isa = PBXGroup;
 			children = (
 				857CC41C1AC09C6000AF61ED /* ViewController.swift */,
+				A94C46411AC7C322002CF0BA /* CustomCell.swift */,
 				857CC43D1AC09CED00AF61ED /* ColorTableViewController.swift */,
 				857CC4451AC09DDC00AF61ED /* SplashController.swift */,
 			);
@@ -569,6 +572,7 @@
 				857CC43E1AC09CED00AF61ED /* ColorTableViewController.swift in Sources */,
 				857CC4421AC09D3F00AF61ED /* SwiftyJSON.swift in Sources */,
 				857CC4461AC09DDC00AF61ED /* SplashController.swift in Sources */,
+				A94C46421AC7C322002CF0BA /* CustomCell.swift in Sources */,
 				857CC41B1AC09C6000AF61ED /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -761,6 +765,7 @@
 				857CC4361AC09C6000AF61ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		857CC4371AC09C6000AF61ED /* Build configuration list for PBXNativeTarget "Program-2-StarterTests" */ = {
 			isa = XCConfigurationList;
@@ -769,6 +774,7 @@
 				857CC4391AC09C6000AF61ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

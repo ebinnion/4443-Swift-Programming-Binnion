@@ -12,20 +12,24 @@
 	<dict>
 		<key>8A62EDC508DD03AF1C714C974D19950828CC3E36</key>
 		<string>github.com:rugbyprof/4443-Swift-Programming.git</string>
+		<key>BC1FF3F84FB3027B1245AD4F74A1123B0A29A09E</key>
+		<string>github.com:ebinnion/4443-Swift-Programming-Binnion.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Program-2-Starter/Program-2-Starter.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>8A62EDC508DD03AF1C714C974D19950828CC3E36</key>
+		<string>../../../../4443-Swift-Programming</string>
+		<key>BC1FF3F84FB3027B1245AD4F74A1123B0A29A09E</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>github.com:rugbyprof/4443-Swift-Programming.git</string>
+	<string>github.com:ebinnion/4443-Swift-Programming-Binnion.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>8A62EDC508DD03AF1C714C974D19950828CC3E36</string>
+	<string>BC1FF3F84FB3027B1245AD4F74A1123B0A29A09E</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -35,6 +39,14 @@
 			<string>8A62EDC508DD03AF1C714C974D19950828CC3E36</string>
 			<key>IDESourceControlWCCName</key>
 			<string>4443-Swift-Programming</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BC1FF3F84FB3027B1245AD4F74A1123B0A29A09E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>swift</string>
 		</dict>
 	</array>
 </dict>

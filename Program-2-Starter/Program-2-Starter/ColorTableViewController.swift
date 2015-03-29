@@ -53,7 +53,9 @@ class ColorTableViewController: UITableViewController {
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
         let CellId:String = "Cell"
-        var cell:UITableViewCell = tableView.dequeueReusableCellWithIdentifier(CellId) as UITableViewCell
+//        var cell:UITableViewCell = tableView.dequeueReusableCellWithIdentifier(CellId) as UITableViewCell
+        
+        let cell: CustomCell = tableView.dequeueReusableCellWithIdentifier(CellId) as CustomCell;
         
         var color = myColors.fetchNextColor()
         
@@ -61,14 +63,22 @@ class ColorTableViewController: UITableViewController {
         
         println(name)
         
-        cell.textLabel?.text = name
+        // Since we use a label inside our CustomCell class,
+        // let's not show any text for the default table cell
+        cell.textLabel?.text = ""
+        
+        // Set the labels attached to our CustomCell class
+        cell.colorLabel?.backgroundColor = myColors.hexStringToUIColor( color.hexValue );
+        cell.colorLabel?.text = ""
+        cell.nameLabel?.text = color.colorName;
         
         return cell
     }
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        let cell = self.tableView.cellForRowAtIndexPath(indexPath)
-        let text = cell?.textLabel?.text
+        let cell = self.tableView.cellForRowAtIndexPath(indexPath) as CustomCell
+        
+        let text = cell.nameLabel?.text
         if let text = text {
             println("did select and the text is \(text)")
             currentColor = text
