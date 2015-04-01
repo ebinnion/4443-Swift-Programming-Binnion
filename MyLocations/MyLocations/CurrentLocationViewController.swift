@@ -84,6 +84,11 @@ class CurrentLocationViewController: UIViewController, CLLocationManagerDelegate
         if let location = location{
             latitudeLabel.text = String(format: "%.8f", location.coordinate.latitude)
             longitudeLabel.text = String(format: "%.8f", location.coordinate.longitude)
+            
+            let currentPoint = (self.tabBarController as CustomTabBarController).currentPoint
+            currentPoint.lat = location.coordinate.latitude
+            currentPoint.lon = location.coordinate.longitude
+            currentPoint.initialized = true
         }
     }
     
